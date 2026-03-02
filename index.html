@@ -170,10 +170,6 @@ function initThree() {
   dir2.position.set(-5, 5, -5);
   scene.add(dir2);
 
-  // Grid
-  const grid = new THREE.GridHelper(10, 20, 0x333366, 0x222244);
-  scene.add(grid);
-
   loader = new GLTFLoader();
 
   window.addEventListener('resize', () => {
